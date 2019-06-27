@@ -74,4 +74,6 @@
 
 #ifdef ALT_SERVER_API
 #include "IServer.h"
+#elif ALT_CLIENT_API
+#include "IClient.h"
 #endif

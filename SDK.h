@@ -18,6 +18,14 @@
 
 #endif // _WIN32
 
+/*
+EXPORT uint32_t GetSDKVersion()
+{
+	return ALTV_SDK_VERSION;
+}
+*/
+#define ALTV_SDK_VERSION 1 //Increment manually on changes
+
 
 #include "deps/alt-math/alt-math.h"
 
@@ -50,6 +58,7 @@
 #include "events/CPlayerDamageEvent.h"
 #include "events/CPlayerDeathEvent.h"
 #include "events/CCheckpointEvent.h"
+#include "events/CColShapeEvent.h"
 #include "events/CPlayerEnterVehicleEvent.h"
 #include "events/CPlayerLeaveVehicleEvent.h"
 #include "events/CPlayerChangeVehicleSeatEvent.h"

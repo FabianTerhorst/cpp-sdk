@@ -71,7 +71,7 @@ EXPORT uint32_t GetSDKVersion()
 #include "events/CConnectionComplete.h"
 #include "events/CDisconnectEvent.h"
 #include "events/CGameEntityCreateEvent.h"
-#include "events/CGameEntityRemoveEvent.h"
+#include "events/CGameEntityDestroyEvent.h"
 #include "events/CKeyboardEvent.h"
 #include "events/CWebViewEvent.h"
 

@@ -83,6 +83,6 @@ EXPORT uint32_t GetSDKVersion()
 
 #ifdef ALT_SERVER_API
 #include "IServer.h"
-#elif ALT_CLIENT_API
+#elif defined(ALT_CLIENT_API)
 #include "IClient.h"
 #endif

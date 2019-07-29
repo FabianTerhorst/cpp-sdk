@@ -20,6 +20,7 @@ namespace alt
 		virtual MValue GetSyncedMetaData(StringView key) const = 0;
 
 #ifdef ALT_SERVER_API
+		virtual void SetAutomigrateable(bool state) = 0;
 		virtual void SetSyncedMetaData(StringView key, MValue val) = 0;
 #endif // ALT_SERVER_API
 
